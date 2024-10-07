@@ -10,7 +10,7 @@
   <packaging>war</packaging>
 
   <name>hello-world</name>
-  <description>Demo project for Spring Boot</description>
+  <description>Demo project for demojenkins</description>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -32,7 +32,7 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <artifactId>demojenkins-starter-tomcat</artifactId>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -41,7 +41,7 @@
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
+        <artifactId>demojenkins-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
